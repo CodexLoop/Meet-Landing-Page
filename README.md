@@ -2,7 +2,7 @@
 
 ## Preview 📷
 
-![Design preview for the Meet landing page coding challenge](./assets/desktop/og_image.jpg)
+![Design preview for the Meet landing page coding challenge](./assets/images/desktop/og_image.jpg)
 
 ## Welcome! 👋
 
