@@ -87,6 +87,17 @@ img {
 }
 
 /*=== Reusable classes! ===*/
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: var(--cyan-600);
+  color: var(--white);
+  padding: 0.5rem;
+  z-index: 999;
+}
+.skip-link:focus {top: 100px;}
+
 .section {
     position: relative;
     padding-block: var(--space-h) var(--space-xl);
@@ -107,9 +118,9 @@ img {
 }
 
 .cta_btn {
+    display: inline-block;
     padding: 1.2rem 2.5rem;
     border-radius: 100px;
-    border: none;
     color: var(--white);
     font-weight: var(--black-font-weight);
     margin-top: var(--space-s);
@@ -214,13 +225,13 @@ nav li:hover {
 .hero_section .cta_btn {
     background-color: var(--cyan-600);
 }
-.hero_section a:last-child .cta_btn {
+.hero_section .cta_btn:last-child {
     background-color: var(--purple-600);
 }
 .hero_section .cta_btn:hover {
     background-color: var(--cyan-hover);
 }
-.hero_section a:last-child:hover .cta_btn {
+.hero_section .cta_btn:last-child:hover {
     background-color: var(--purple-hover);
 }
 
