@@ -5,22 +5,64 @@
   <!--meta data-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#fafafa">
+  <meta name="description" content="Meet is a remote collaboration platform that helps teams connect, communicate, and build better products together.">
+  <meta name="keywords" content="remote work, team collaboration, project management, chat, meetings, Meet app">
 
-  <!--Css-->
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <!--Open Graph Tags-->
+  <meta property="og:title" content="Meet - Remote Collaboration Made Easy">
+  <meta property="og:description" content="Meet connects your remote team with real-time chat, project boards, and secure video meetings.">
+  <meta property="og:image" content="https://meetsoftware.netlify.app/assets/desktop/og_image.jpg">
+  <meta property="og:url" content="https://meetsoftware.netlify.app">
+  <meta property="og:type" content="website">
 
-  <!--Favicon-->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <!--Twitter Card Tags-->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Meet - Remote Collaboration Made Easy">
+  <meta name="twitter:description" content="Unite your remote team and build better products together.">
+  <meta name="twitter:image" content="https://meetsoftware.netlify.app/assets/desktop/og_image.jpg">
+
+  <!--Links-->  
+  <link rel="canonical" href="https://meetsoftware.netlify.app/">
+  <link rel="stylesheet" href="assets/css/styles.min.css?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="./assets/favicon-32x32.png">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap">
+  </noscript>
+
+  <!--JSON-LD-->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Meet",
+      "url": "https://meetsoftware.netlify.app",
+      "description": "Remote collaboration made easy - Meet helps teams chat, share, and build together.",
+      "publisher": {
+        "@type": "Person",
+        "name": "Mnqobi Thusi",
+        "url": "https://mnqobithusi.dev"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://meetsoftware.netlify.app/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
 
   <!--Title-->
-  <title>Frontend Mentor | Meet landing page</title>
+  <title>Meet | Home</title>
 </head>
 
 <body>
   <header class="header" role="banner">
     <nav role="navigation">
       <div class="logo">
-        <img src="assets/logo.svg" alt="Site logo">
+        <img src="assets/images/logo.svg" alt="Site logo">
       </div>
     </nav>
   </header>
@@ -29,7 +71,7 @@
     <section class="section hero_section">
       <div class="container hero_container">
         <div class="left_images">
-          <img src="assets/desktop/image-hero-left.png" alt="">
+          <img src="assets/images/desktop/image-hero-left.png" alt="Face images in the hero section">
         </div>
         <div class="wrapper">
           <h1 class="section_title">
@@ -46,7 +88,7 @@
           </a>
         </div>
         <div class="right_images">
-          <img src="assets/desktop/image-hero-right.png" alt="">
+          <img src="assets/images/desktop/image-hero-right.png" alt="Face images in the hero section">
         </div>
       </div>
     </section>
@@ -55,10 +97,10 @@
       <div class="page_number">01</div>
       <div class="container gallery_container">
         <div class="wrapper">
-          <img src="assets/desktop/image-woman-in-videocall.jpg" alt="Image of a woman texting">
-          <img src="assets/desktop/image-women-videochatting.jpg" alt="Image of ladies texting">
-          <img src="assets/desktop/image-men-in-meeting.jpg" alt="Image of a man in a meeting">
-          <img src="assets/desktop/image-man-texting.jpg" alt="Image of a man texting">
+          <img src="assets/images/desktop/image-woman-in-videocall.jpg" alt="Image of a woman texting" loading="lazy">
+          <img src="assets/images/desktop/image-women-videochatting.jpg" alt="Image of women texting" loading="lazy">
+          <img src="assets/images/desktop/image-men-in-meeting.jpg" alt="Image of a man in a meeting" loading="lazy">
+          <img src="assets/images/desktop/image-man-texting.jpg" alt="Image of a man texting" loading="lazy">
         </div>
         <div class="description">
           <caption>
@@ -84,7 +126,7 @@
     </div>
     <div class="filter"></div>
     <div class="bg_image">
-      <img src="assets/desktop/image-footer.jpg" alt="Image background photo">
+      <img src="assets/images/desktop/image-footer.jpg" alt="Image background photo" loading="lazy">
     </div>
     <div class="container footer_container">
       <h2 class="section_title">
@@ -103,6 +145,6 @@
   </footer>
 </body>
 
-<script src="assets/js/source.js"></script>
+<script src="assets/javascript/source.min.js"></script>
 
 </html>

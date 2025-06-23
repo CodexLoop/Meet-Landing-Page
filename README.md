@@ -1,5 +1,7 @@
 # Frontend Mentor - Meet landing page
 
+## Preview 📷
+
 ![Design preview for the Meet landing page coding challenge](./assets/desktop/og_image.jpg)
 
 ## Welcome! 👋
