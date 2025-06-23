@@ -313,6 +313,7 @@ nav li:hover {
 
 .footer .cta_btn {
     background-color: var(--purple-600);
+    text-align: center;
 }
 .footer .cta_btn span {
     color: var(--purple-300);
